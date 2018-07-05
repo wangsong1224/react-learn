@@ -1,4 +1,4 @@
-import Products from './products'
-import Login from './login'
+import ProductsModel from './model-products'
+import LoginModel from './model-login-form'
 
-export default[Products,Login]
+export default[ProductsModel,LoginModel]

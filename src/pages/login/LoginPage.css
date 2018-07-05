@@ -4,10 +4,12 @@
 	left: 100px;
 	font-size: 40px;
 }
+
 .loginPage{
 	height: 100%;
 	position: relative;
 }
+
 .loginForm {
 		width: 400px;
 		border:1px solid gray;
