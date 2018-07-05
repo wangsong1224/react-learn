@@ -1,7 +1,6 @@
-// 
 const path = require("path")
 export default {
-    "extraBabelPlugins": [
+    "extraBabelPlugins" : [
         [
             "import", {
                 "libraryName": "antd",
@@ -10,7 +9,7 @@ export default {
             }
         ]
     ],
-    "alias":{
-        "@":path.resolve(__dirname,'./src')
+    "alias" : {
+        "@": path.resolve(__dirname, './src')
     }
 }
