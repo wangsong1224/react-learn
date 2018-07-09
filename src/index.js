@@ -1,5 +1,5 @@
 import dva from 'dva';
-import './index.css';
+import './index.less';
 import router from './routes/router'
 import Models from './models'
 // import _ from 'lodash'

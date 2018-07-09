@@ -1,7 +1,6 @@
 import React from 'react';
 import {connect} from 'dva'
 import ProductList from '@/components/ProductList'
-import { changeConfirmLocale } from '_antd@3.6.5@antd/lib/modal/locale';
 // 完成了model和component,动过connect串联起来
 const Products = ({dispatch, products}) => {
     function handleDelete(id) {

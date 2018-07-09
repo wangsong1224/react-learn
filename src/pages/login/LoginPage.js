@@ -1,8 +1,7 @@
 import React from 'react';
-import styles from './LoginPage.css'
+import styles from './LoginPage.less'
 import {connect} from 'dva'
 import {Form, Icon, Input, Button, Checkbox} from 'antd';
-import Axios from 'axios'
 import Mock from 'mockjs'
 
 const FormItem = Form.Item;
