@@ -29,6 +29,7 @@
     "mock": "^0.1.1",
     "mockjs": "^1.0.1-beta3",
     "redbox-react": "^1.4.3",
-    "roadhog": "^2.0.0"
+    "roadhog": "^2.0.0",
+    "webpack-bundle-analyzer": "^2.13.1"
   }
 }

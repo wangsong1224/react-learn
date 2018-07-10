@@ -1,18 +1,12 @@
 import React from 'react'
-import { Route } from 'dva/router';
-import MapPage from '../pages/map/MapPage';
-const routes = (
-  <Route component={MapRouter}>
-    <Route path="groups" component={MapPage}/>
-  </Route>
+import { Route,Switch } from 'dva/router';
+import AsyncCompnent from '@/components/AsyncComponent'
+// 动态路由的写法
+const MapPage = AsyncCompnent(()=>import(/* webpackChunkName: "MapPage" */'../pages/map/MapPage'))
+
+// 需要配置 key
+const MapRouter = (
+	<Route key='map' path="/map" exact component={MapPage}/>
 )
-class MapRouter extends React.Component {
-	render(){
-    return (
-      <div>
-				{ routes }
-			</div>
-    )
-	}
-}
+
 export default MapRouter
